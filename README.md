@@ -47,9 +47,16 @@ allprojects {
 在`Module`中添加：
 ```
 dependencies {
-     implementation 'com.github.zhangmingjie01:MultiItemRecyclerview:1.0.2'
+     implementation 'com.github.zhangmingjie01:MultiItemRecyclerview:1.0.3'
 }
 ```
+
+在 app gradle 中
+
+compileOptions {
+    sourceCompatibility 1.8
+    targetCompatibility 1.8
+}
 
 - 或者你也可以直接克隆源码
 
